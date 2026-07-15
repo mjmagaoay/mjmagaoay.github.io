@@ -17,6 +17,10 @@ A progressive web app (PWA) for calculating product bundle prices with markup. C
 3. Set your target markup percentage
 4. Save the product to store it locally
 
+## Disclaimer
+
+This application uses **Firebase Firestore** as its database. Firestore security rules are applied, which require users to authenticate via **Google Login** before they can read or write data.
+
 ## License
 
 MIT License
